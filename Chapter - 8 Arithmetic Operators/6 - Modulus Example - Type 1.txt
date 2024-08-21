@@ -1,0 +1,45 @@
+Perform mathematical Modulus or Remainder of division
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int x = 7, y = 3, result;
+
+	// clear previous output
+	clrscr();
+
+
+	cout<<"x = "<<x<<endl;
+
+	cout<<"y = "<<y<<endl;
+
+
+	// modulus
+	// direct result printing
+	cout<<x<<” % “<<y<<” = “<<x%y;
+
+	// store result and printing
+	result = x % y;
+
+	cout<<x<<” % “<<y<<” = “<<result;
+
+
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+x = 7
+
+y = 3
+
+7 % 3 = 1
+
+7 % 3 = 1

@@ -1,0 +1,45 @@
+Perform mathematical Modulus or Remainder of division
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int x = 7, y = 3, result;
+
+	// clear previous output
+	clrscr();
+
+
+	printf("x = %d\n", x);
+
+	printf("y = %d\n", y);
+
+
+	// direct result printing
+	printf("%d %c %d = %d\n", x, 37, y, x/y);
+
+
+	// store result and printing
+	result = x % y;
+
+	printf("%d %c %d = %d\n", x, 37, y, result);
+
+
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+x = 7
+
+y = 3
+
+7 % 3 = 1
+
+7 % 3 = 1
