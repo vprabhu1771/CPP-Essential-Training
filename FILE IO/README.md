@@ -206,7 +206,7 @@ int main() {
 | Write to File   | `ofstream`  | `ios::out` (default) |
 | Read from File  | `ifstream`  | `ios::in` (default) |
 | Append to File  | `ofstream`  | `ios::app` |
-| Read & Write    | `fstream`   | `ios::in`  `ios::out` |
+| Read & Write    | `fstream`   | `ios::in` & `ios::out` |
 | Binary File     | `fstream`   | `ios::binary` |
 
 These examples demonstrate essential file handling operations in C++. Let me know if you need any modifications! 🚀
