@@ -108,59 +108,59 @@ printf("File: %s, Line: %d\n", __FILE__, __LINE__);
 ---
 
 ```
-#include<stdio.h>
+#include<iostream>
 #include<stdlib.h>
 
 int main()
-{
-    printf("%s", __FILE__);
+{    
+    cout<<__FILE__;
     return 0;
 }
 ```
 
 ```
-#include<stdio.h>
+#include<iostream>
 #include<stdlib.h>
 
 int main()
-{
-    printf("%d", __LINE__);
+{    
+    cout<<__LINE__;
     return 0;
 }
 ```
 
 ```
-#include<stdio.h>
+#include<iostream>
 #include<stdlib.h>
 
 int main()
-{
-    printf("%s", __DATE__);
+{    
+    cout<<__DATE__;
     return 0;
 }
 ```
 
 ```
-#include<stdio.h>
+#include<iostream>
 #include<stdlib.h>
 
 int main()
-{
-    printf("%s", __TIME__);
+{    
+    cout<<__TIME__;
     return 0;
 }
 ```
 
 ```
-#include<stdio.h>
+#include<iostream>
 #include<stdlib.h>
 
 int main()
 {
-    #ifdef __STDC__
-    printf("The compiler conforms to the ANSI C standard.\n");
+    #ifdef __STDC__    
+      cout<<"The compiler conforms to the ANSI C standard.\n";
     #else
-        printf("The compiler does not conform to the ANSI C standard.\n");
+      cout<<"The compiler does not conform to the ANSI C standard.\n";
     #endif
     return 0;
 }
